@@ -1,0 +1,4 @@
+[error] E:\Ali Hassan\tasveer_e_Mujasam\app\views\welcome.scala.html:117:36: not found: value gmail
+[error]         <a href=""> Alideveloper95@gmail.com</a>
+[error]                                    ^
+[error] one error found
