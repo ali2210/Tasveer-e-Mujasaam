@@ -1,8 +1,8 @@
 package controllers
 
 import javax.inject._
-
 import play.api.mvc._
+import views.html.helper.form
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -21,5 +21,6 @@ class HomeController @Inject()(cc: ControllerComponents) (implicit assetsFinder:
   def index = Action {
     Ok(views.html.index(""))
   }
+
 
 }
